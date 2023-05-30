@@ -20,7 +20,7 @@ componentDidMount(){
 }
 fetchWeatherData = () =>{
     const {searchField} = this.state;
-    const url = `http://api.weatherapi.com/v1/current.json?key=788159cff6bf462eac793318232605&q=${searchField}`;
+    const url = `https://api.weatherapi.com/v1/current.json?key=788159cff6bf462eac793318232605&q=${searchField}`;
 
     fetch(url)
       .then(response => response.json())
