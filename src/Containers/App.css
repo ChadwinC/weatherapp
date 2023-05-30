@@ -1,0 +1,10 @@
+
+h1{
+    font-size: x-large;
+    font-weight: 850;
+    background-image: linear-gradient(to left, #e2ddee, #63aae3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+}
